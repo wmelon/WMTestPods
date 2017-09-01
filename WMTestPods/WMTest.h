@@ -10,4 +10,7 @@
 
 @interface WMTest : NSObject
 - (void)sayHelloWorld;
+- (void)sayHi;
+
 @end
+

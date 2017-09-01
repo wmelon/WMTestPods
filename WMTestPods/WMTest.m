@@ -12,4 +12,7 @@
 - (void)sayHelloWorld{
     NSLog(@"hello world");
 }
+- (void)sayHi{
+    NSLog(@"Hi");
+}
 @end

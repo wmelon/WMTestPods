@@ -13,7 +13,7 @@
 		19A571671F57FD6800B1C3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A571651F57FD6800B1C3B7 /* Main.storyboard */; };
 		19A571691F57FD6800B1C3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A571681F57FD6800B1C3B7 /* Assets.xcassets */; };
 		19A5716C1F57FD6800B1C3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A5716A1F57FD6800B1C3B7 /* LaunchScreen.storyboard */; };
-		19A571761F57FD8B00B1C3B7 /* WMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A571751F57FD8B00B1C3B7 /* WMTest.m */; };
+		19E336D31F594F27002FB2CF /* WMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E336D21F594F27002FB2CF /* WMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		19A571681F57FD6800B1C3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19A5716B1F57FD6800B1C3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19A5716D1F57FD6800B1C3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19A571741F57FD8B00B1C3B7 /* WMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTest.h; sourceTree = "<group>"; };
-		19A571751F57FD8B00B1C3B7 /* WMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTest.m; sourceTree = "<group>"; };
+		19E336D11F594F27002FB2CF /* WMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTest.h; sourceTree = "<group>"; };
+		19E336D21F594F27002FB2CF /* WMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		19A571501F57FD6800B1C3B7 = {
 			isa = PBXGroup;
 			children = (
-				19A571731F57FD8200B1C3B7 /* WMTestPods */,
+				19E336D01F594F27002FB2CF /* WMTestPods */,
 				19A5715B1F57FD6800B1C3B7 /* WMDemo */,
 				19A5715A1F57FD6800B1C3B7 /* Products */,
 			);
@@ -83,13 +83,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		19A571731F57FD8200B1C3B7 /* WMTestPods */ = {
+		19E336D01F594F27002FB2CF /* WMTestPods */ = {
 			isa = PBXGroup;
 			children = (
-				19A571741F57FD8B00B1C3B7 /* WMTest.h */,
-				19A571751F57FD8B00B1C3B7 /* WMTest.m */,
+				19E336D11F594F27002FB2CF /* WMTest.h */,
+				19E336D21F594F27002FB2CF /* WMTest.m */,
 			);
-			path = WMTestPods;
+			name = WMTestPods;
+			path = ../WMTestPods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +167,7 @@
 				19A571641F57FD6800B1C3B7 /* ViewController.m in Sources */,
 				19A571611F57FD6800B1C3B7 /* AppDelegate.m in Sources */,
 				19A5715E1F57FD6800B1C3B7 /* main.m in Sources */,
-				19A571761F57FD8B00B1C3B7 /* WMTest.m in Sources */,
+				19E336D31F594F27002FB2CF /* WMTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +324,7 @@
 				19A571721F57FD6800B1C3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
